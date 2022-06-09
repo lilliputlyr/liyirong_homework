@@ -3,8 +3,8 @@ import time
 import csv
 import pandas as pd
 
-a = ['','924288595@qq.com','lilliputlyr@yahoo.com']
-b = ['','123456','Mar*13908749747']
+a = ['','123@qq.com','123@yahoo.com']
+b = ['','123456','111111']
 #字典中的key值即为csv中列名
 dataframe = pd.DataFrame({'username':a,'password':b})
 #将DataFrame存储为csv,index表示是否显示行名，default=True
